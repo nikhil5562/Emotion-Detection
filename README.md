@@ -3,8 +3,7 @@ This repository uses [Yolo-V7](https://github.com/derronqi/yolov7-face) and [Rep
 ## Example
 This is an example of emotion classification:
 ![Example Image](example.png "Example Image")
-This is a picture of me pulling all 8 of the facial expressions that the model classifies:
-![Example Image](emotions.png "Emotions")<br>
+
 ## Setup
 ### pip
 `pip install -r requirements.txt`
@@ -50,6 +49,6 @@ optional arguments:
 ## Architecture
 There are two parts to this code: facial detection and emotion classification.
 ### Face Detection
-This repository is a fork of [ultralytics/Yolo-V5](https://github.com/ultralytics/yolov5) because this is the code for classifying faces. Read [here](https://ultralytics.com/yolov5) for more information on Yolo-V5. To detect faces, the model was trained on the [WIDER FACE](http://shuoyang1213.me/WIDERFACE/) dataset which has 393,703 faces. For more information, check out the paper [here](https://arxiv.org/pdf/1511.06523.pdf).
+This repository is a fork of [derronqi/Yolo-V7](https://github.com/derronqi/yolov7-face) because this is the code for classifying faces.You can find the more detailed tutorial of yoloV7 [here] (https://medium.com/mlearning-ai/object-detection-with-yolov7-a74fa1f03c7e)
 ### Facial Expression Classification
-This repository uses code directly from the [DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG) repository. You can read the RepVGG paper [here](https://arxiv.org/pdf/2101.03697.pdf) to find out more. Even though this is the main model, it made more sense to fork the Yolo-V5 repository because it was more complicated. The model was trained on the [AffectNet dataset](http://mohammadmahoor.com/affectnet/), which has 420,299 facial expressions. For more information, you can read the paper [here](http://mohammadmahoor.com/wp-content/uploads/2017/08/AffectNet_oneColumn-2.pdf).
+This repository uses code directly from the [DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG) repository. You can read the RepVGG paper [here](https://arxiv.org/pdf/2101.03697.pdf) to find out more. Even though this is the main model, it made more sense to fork the Yolo-V7 repository because it was more complicated. The model was trained on the [AffectNet dataset](http://mohammadmahoor.com/affectnet/), which has 420,299 facial expressions. For more information, you can read the paper [here](http://mohammadmahoor.com/wp-content/uploads/2017/08/AffectNet_oneColumn-2.pdf).
