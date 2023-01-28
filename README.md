@@ -49,6 +49,6 @@ optional arguments:
 ## Architecture
 There are two parts to this code: facial detection and emotion classification.
 ### Face Detection
-This repository is a fork of [derronqi/Yolo-V7](https://github.com/derronqi/yolov7-face) because this is the code for classifying faces.You can find the more detailed tutorial of yoloV7 [here] (https://medium.com/mlearning-ai/object-detection-with-yolov7-a74fa1f03c7e)
+This repository is a fork of [derronqi/Yolo-V7](https://github.com/derronqi/yolov7-face) because this is the code for classifying faces.You can find the more detailed tutorial of yoloV7 [here](https://medium.com/mlearning-ai/object-detection-with-yolov7-a74fa1f03c7e)
 ### Facial Expression Classification
 This repository uses code directly from the [DingXiaoH/RepVGG](https://github.com/DingXiaoH/RepVGG) repository. You can read the RepVGG paper [here](https://arxiv.org/pdf/2101.03697.pdf) to find out more. Even though this is the main model, it made more sense to fork the Yolo-V7 repository because it was more complicated. The model was trained on the [AffectNet dataset](http://mohammadmahoor.com/affectnet/), which has 420,299 facial expressions. For more information, you can read the paper [here](http://mohammadmahoor.com/wp-content/uploads/2017/08/AffectNet_oneColumn-2.pdf).
